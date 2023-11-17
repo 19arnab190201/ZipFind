@@ -1,0 +1,129 @@
+.locationCard {
+  background: url("../assets/bolb.svg"), #335af5;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 18px;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0px 3.43587px 18.89729px 0px rgba(41, 44, 50, 0.04);
+  position: relative;
+}
+.locationInfoCountry {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.locationInfoState {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 221.429% */
+  margin-top: -2px;
+}
+.locationCoordinates {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin-top: 8px;
+}
+.locationCard > .locationCoordinates > div {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.locationCard > .locationCoordinates > div > span {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  margin-top: 5px;
+}
+
+.locationPlaces {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 56vh;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.locationPlaces > h2 {
+  color: #170f49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+.locationContainer {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 0.859px solid #eff0f6;
+  background: #fff;
+  box-shadow: 0px 3.43587px 18.89729px 0px rgba(41, 44, 50, 0.04);
+}
+
+.placeName {
+  color: #170f49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 127.273% */
+}
+
+.locationInfo {
+  color: #6f6c90;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.locationAbbreviation {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0px 7px;
+}
+
+.locationAbbreviation > p {
+  color: #170f49d7;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}

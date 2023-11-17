@@ -1,0 +1,45 @@
+.PostalCodeForm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 60px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  box-shadow: 0px 8px 25px 0px rgba(13, 10, 44, 0.06);
+}
+
+.postalCodeInput {
+  padding: 10px 30px;
+  border-radius: 60px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #170f49;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.PostalCodeForm button {
+  border-radius: 56px;
+  background: #335af5;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  border: none;
+  outline: none;
+  padding: 16px 32px;
+
+  color: var(--neutral-100, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  cursor: pointer;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+}

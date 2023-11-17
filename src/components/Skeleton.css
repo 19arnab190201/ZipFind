@@ -1,0 +1,142 @@
+/* Skeleton.css */
+.loading-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  display: flex;
+  z-index: 999; /* Ensure the loading overlay is on top of other content */
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.skeleton-item {
+  height: 20px;
+  width: 90%;
+  margin: 5%;
+  margin-bottom: 10px;
+  background-color: #ddd;
+  animation: fade 1.5s infinite;
+  border-radius: 8px;
+}
+
+.sidebar-skeleton {
+  width: 24%;
+}
+
+.main-content-skeleton {
+  width: 74%;
+  height: 100vh;
+}
+
+.sidebar-card {
+  padding: 90px;
+}
+.sidebar-title {
+  width: 40%;
+}
+.sidebar-place {
+  padding: 30px;
+}
+.skeleton-input {
+  padding: 30px;
+  margin: 2%;
+  width: 96%;
+}
+.skeleton-map {
+  margin: 2%;
+  width: 96%;
+  height: 82%;
+}
+.map-skeleton-component {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-svg {
+  height: 64px;
+  width: auto;
+  animation: color-transition 3s infinite;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 8px;
+}
+
+.rotateX {
+  transform: rotateX(55deg);
+}
+
+.dot {
+  height: 24px;
+  width: 24px;
+  background: #170f49;
+  border-radius: 9999px;
+  animation: dot-transition 3s infinite;
+  z-index: 1;
+}
+
+.pulse {
+  position: absolute;
+  border: 2px solid #335af5;
+  border-radius: 9999px;
+  z-index: 0;
+  animation: pulse-transition 3s infinite;
+}
+
+@keyframes color-transition {
+  0%,
+  100% {
+    stroke: #170f49;
+    transform: translateY(-25%);
+  }
+  50% {
+    stroke: #335af5;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dot-transition {
+  0%,
+  100% {
+    background-color: #170f49;
+  }
+  50% {
+    background-color: #335af5;
+  }
+}
+
+@keyframes pulse-transition {
+  0% {
+    height: 15px;
+    width: 15px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+  }
+}

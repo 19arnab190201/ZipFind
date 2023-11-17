@@ -1,0 +1,108 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  background-image: url("./assets/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo h3 {
+  font-size: 24px;
+}
+
+.logo h3 span {
+  color: #335af5;
+}
+
+.app-result-container {
+  height: 100vh;
+  display: flex;
+  gap: 16px;
+  background-color: #f8f9fd;
+}
+.result-sidebar {
+  width: 24%;
+  padding: 20px;
+  height: 100%;
+  background-color: #f8f9fd;
+}
+.result-map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  color: #170f49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 127.273% */
+  letter-spacing: 1px;
+  box-shadow: 0px 3.43587px 18.89729px 0px rgba(41, 44, 50, 0.04);
+}
+.app-container h1 {
+  color: #170f49;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}
+
+.app-container p {
+  color: var(--neutral-600, #6f6c90);
+  width: 50%;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0px !important;
+  line-height: 30px; /* 166.667% */
+}
+
+.clear-btn {
+  border-radius: 56px;
+  background: #335af5;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+
+  color: var(--neutral-100, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  cursor: pointer;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 111.111% */
+}
+.error-message {
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #e74c3c;
+  color: #fff !important;
+  border: 2px solid #e74c3c;
+  width: 40% !important;
+}
